@@ -168,6 +168,7 @@ table.float-center {
 body,
 table.body,
 h1,
+h3,
 p,
 td,
 th,
@@ -181,7 +182,8 @@ a {
   text-align: left;
   line-height: 1.4; }
 
-h1 {
+h1,
+h3 {
   color: inherit;
   word-wrap: normal;
   font-family: sans-serif;
@@ -191,6 +193,9 @@ h1 {
 
 h1 {
   font-size: 34px; }
+
+h3 {
+  font-size: 28px; }
 
 body,
 table.body,
@@ -324,6 +329,11 @@ table.button.secondary table td a:visited {
 h1 {
   text-align: center;
   font-size: 38px; }
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #262261; }
 
 .dark-dark-purple-bg p {
   color: #ffffff;
